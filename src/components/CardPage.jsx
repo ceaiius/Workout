@@ -1,11 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import { Link } from "react-router-dom";
+
 function CardPage(){
-    const style = {
-        color:"white",
-        textDecoration : "none"
-    }
+    
     return(
         <div className="card-container">
             <Card link="chest" muscleName={"Chest"} image={"https://cdn.shopify.com/s/files/1/0038/0878/8544/articles/FeaturedImage_PulledChestMuscle_1280x.jpg?v=1592870496"}/>

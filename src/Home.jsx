@@ -1,6 +1,6 @@
 import React from "react";
-import Title from './Title';
-import CardPage from "./CardPage";
+import Title from "./components/Title"
+import CardPage from "./components/CardPage";
 function Home(){
     return(
         <div>

@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import { Link } from "react-router-dom";
 function Card({image, muscleName,link}){
     return(
@@ -9,6 +10,7 @@ function Card({image, muscleName,link}){
                         <img src={image} alt=""/>
                     </div>
                 </Link>
+              
                 <div className="card-text">
                     <h2>{muscleName}</h2>
                 </div>

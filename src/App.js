@@ -1,7 +1,7 @@
-import "./App.css"
-import Title from './Title';
+import "../src/styles/App.css"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./Home";
+import Chest from "./muscleGroups/Chest";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
+          <Route path="/chest" element={<Chest/>}/>
         </Routes>
       </Router>
       
