@@ -7,6 +7,8 @@ import Triceps from "./muscleGroups/Triceps";
 import Back from "./muscleGroups/Back";
 import Biceps from "./muscleGroups/Biceps";
 import Calves from "./muscleGroups/Calves";
+import Quads from "./muscleGroups/Quads";
+import Glutes from "./muscleGroups/Glutes";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
           <Route path="/back" element={<Back/>}/>
           <Route path="/biceps" element={<Biceps/>}/>
           <Route path="/calves" element={<Calves/>}/>
+          <Route path="/quads" element={<Quads/>}/>
+          <Route path="/glutes" element={<Glutes/>}/>
         </Routes>
       </Router>
       
